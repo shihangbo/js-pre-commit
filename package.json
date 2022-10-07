@@ -6,6 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prepare": "husky install",
     "my-ci": "./node_modules/.bin/js-commit"
   },
   "author": "322589",
