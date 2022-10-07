@@ -6,6 +6,7 @@ import store from './store/index'
 import './assets/css/base.css'
 
 console.log('imou-sensors init')
+
 ReactDOM.render(
   <Provider store={store}>
     <App />
