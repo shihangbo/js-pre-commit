@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.2.5",
     "husky": "^8.0.1",
     "js-commit": "^1.0.7",
     "lint-staged": "^13.0.3"
