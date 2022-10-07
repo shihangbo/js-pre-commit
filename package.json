@@ -1,0 +1,50 @@
+{
+  "name": "imou-helper",
+  "version": "1.0.0",
+  "description": "imou App help documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "my-ci": "./node_modules/.bin/js-commit"
+  },
+  "author": "322589",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "js-commit": "^1.0.7",
+    "lint-staged": "^13.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/view/Index/*.js": [
+      "eslint --fix"
+    ]
+  }
+}

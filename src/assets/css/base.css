@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+}
+
+input,
+textarea {
+  font: 14px 'PingFangSC-Regular', 'Microsoft YaHei', '黑体', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+input:focus,
+textarea:focus,
+button {
+  outline: 0;
+  border: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #F2F2F2;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PingFangSC-Regular', 'Microsoft YaHei', '黑体', 'Tahoma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #F2F2F2;
+  width: 100%;
+  max-width: 100%;
+  color: #333;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+html.noScroll {
+  height: 100%;
+  body {
+      overflow-y: hidden;
+      height: 100%;
+  }
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+section {
+  margin: 0 auto;
+  width: 100%;
+}
+
+input,
+select {
+  font-size: 1rem;
+  display: inline-block;
+  background: transparent;
+  border: none;
+  vertical-align: middle;
+  color: #333;
+  width: 100%;
+}
+
+input::-webkit-input-placeholder,
+select::-webkit-select-placeholder {
+  color: #C2C2C2;
+  font-size: 15px;
+}
